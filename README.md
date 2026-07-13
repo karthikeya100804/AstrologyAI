@@ -30,7 +30,7 @@ pip install -r requirements.txt
 ## 3. Configure Environment Variables
 
 Create a `.env` file and add the required API keys and configuration values.
-```env
+```bash
 
 # Twilio
 TWILIO_ACCOUNT_SID=your_twilio_account_sid
@@ -38,7 +38,7 @@ TWILIO_AUTH_TOKEN=your_twilio_auth_token
 TWILIO_WHATSAPP_NUMBER=whatsapp:+14155238886
 
 # Add any other API keys used by the project
-...
+```
 
 
 ---
